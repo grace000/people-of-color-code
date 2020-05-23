@@ -16,7 +16,7 @@ params:
     # Hero subtitle (optional)
     subtitle: was created to foster collaboration and representation of people of color in the software development industry
     # Hero image (from static/images/___)
-    image: poc-code-and-chill.jpg
+    image: "poc-code-and-chill.jpg"
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
       - company: 8thlight
