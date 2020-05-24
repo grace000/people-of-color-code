@@ -1,6 +1,6 @@
 import React from "react"
 import AboutData from "../data/about-us.json"
-import SimpleCard from "./simple-card"
+import SimpleCard from "./cards/simple-card"
 
 const AboutUs = () => {
   const { title, features } = AboutData

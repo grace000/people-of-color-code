@@ -1,0 +1,23 @@
+{
+  "title": "Engage",
+  "tiles": [
+    {
+      "title": "Slack",
+      "url": "/",
+      "buttonText": "Join our slack",
+      "text": "The People of Color Code Slack is an online place for you to connect and share resources with other people."
+    },
+    {
+      "title": "Meetup",
+      "url": "/",
+      "buttonText": "Chicago Meetup",
+      "text": "Join us in person for Code and Chill events, workshops, and other technical presentations"
+    },
+    {
+      "title": "Speaker Opportunities",
+      "url": "/",
+      "buttonText": "Apply to Speak",
+      "text": "Interested in providing a workshop or giving a talk? Apply to speak at one of our events."
+    }
+  ]
+}

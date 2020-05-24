@@ -1,6 +1,6 @@
 import React from "react"
 import OrganizerData from "../data/organizers.json"
-import CardWithImage from "./card-with-image"
+import CardWithImage from "./cards/card-with-image"
 
 const Organizers = () => {
   const { title, tiles } = OrganizerData

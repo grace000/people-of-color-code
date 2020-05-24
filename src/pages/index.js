@@ -7,6 +7,8 @@ import SupportingCompanies from "../components/supporting-companies"
 import AboutUs from "../components/about-us"
 import Organizers from "../components/organizers"
 import Values from "../components/values"
+import Events from "../components/events"
+import Engage from "../components/engage"
 
 const IndexPage = () => {
   return (
@@ -17,6 +19,8 @@ const IndexPage = () => {
       <AboutUs />
       <Organizers />
       <Values />
+      <Events />
+      <Engage />
     </Layout>
   )
 }

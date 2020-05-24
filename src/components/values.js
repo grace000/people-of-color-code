@@ -1,6 +1,6 @@
 import React from "react"
 import ValuesData from "../data/values.json"
-import CardWithImageText from "./card-with-image-text"
+import CardWithImageText from "./cards/card-with-image-text"
 
 const Values = () => {
   const { title, values } = ValuesData
