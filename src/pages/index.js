@@ -6,6 +6,7 @@ import Landing from "../components/landing"
 import SupportingCompanies from "../components/supporting-companies"
 import AboutUs from "../components/about-us"
 import Organizers from "../components/organizers"
+import Values from "../components/values"
 
 const IndexPage = () => {
   return (
@@ -15,6 +16,7 @@ const IndexPage = () => {
       <SupportingCompanies />
       <AboutUs />
       <Organizers />
+      <Values />
     </Layout>
   )
 }
