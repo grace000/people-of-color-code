@@ -1,0 +1,18 @@
+{
+  "id": "about",
+  "title": "About Us",
+  "subtitle": "And we know it",
+  "image": "poc-group-intro.jpg",
+  "features": [
+    {
+      "subtitle": "Our Mission",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.",
+      "icon": "laptop-globe"
+    },
+    {
+      "subtitle": "Our Vision",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.",
+      "icon": "mobile-feed"
+    }
+  ]
+}
