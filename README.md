@@ -14,6 +14,7 @@
 
     ```shell
     # Clone in a directory of your choice
+    git clone https://github.com/grace000/people-of-color-code.git
     ```
 
 1.  **Start it up.**
@@ -21,7 +22,7 @@
     Navigate into the site’s directory, install the dependencies, and start it up.
 
     ```shell
-    cd
+    cd poc-code-site-gatsby
     npm i
     npm run start
     ```
