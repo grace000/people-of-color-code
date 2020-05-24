@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import Landing from "../components/landing"
 import SupportingCompanies from "../components/supporting-companies"
 import AboutUs from "../components/about-us"
+import Organizers from "../components/organizers"
 
 const IndexPage = () => {
   return (
@@ -13,6 +14,7 @@ const IndexPage = () => {
       <Landing />
       <SupportingCompanies />
       <AboutUs />
+      <Organizers />
     </Layout>
   )
 }
