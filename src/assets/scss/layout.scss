@@ -1,5 +1,8 @@
+@import "./about-us.scss";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
 html {
-  font-family: sans-serif;
+  font-family: Montserrat;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -200,7 +203,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: Montserrat;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

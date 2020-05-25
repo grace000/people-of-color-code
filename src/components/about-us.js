@@ -6,7 +6,7 @@ const AboutUs = () => {
   const { title, features } = AboutData
 
   return (
-    <div>
+    <div className="about-us-wrapper">
       <h1>{title}</h1>
       {features.map((feature, index) => (
         <SimpleCard key={index} content={feature} />
