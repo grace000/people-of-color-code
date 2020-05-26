@@ -1,0 +1,17 @@
+.landing-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.landing-text {
+  align-self: center;
+}
+
+.landing-subtitle {
+  width: 70%;
+}
+
+.landing-image {
+  max-width: "300px";
+  margin-bottom: "1.45rem";
+}

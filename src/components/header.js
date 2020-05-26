@@ -3,17 +3,13 @@ import React from "react"
 
 const Header = ({ navigation }) => (
   <header>
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+    <div>
       <h1 style={{ margin: 0 }}>
-        <ul>
+        <ul className="header-list">
           {navigation.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li className="header-item" key={index}>
+              {item}
+            </li>
           ))}
         </ul>
       </h1>

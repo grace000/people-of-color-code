@@ -11,7 +11,7 @@ const Landing = () => {
       allFile {
         nodes {
           childImageSharp {
-            fluid(maxWidth: 300) {
+            fluid(maxWidth: 250) {
               originalName
               ...GatsbyImageSharpFluid
             }
@@ -27,10 +27,12 @@ const Landing = () => {
   )
 
   return (
-    <div>
-      <h1>{title}</h1>
-      <p>{subtitle}</p>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div className="landing-wrapper">
+      <div className="landing-text">
+        <h1 className="landing-title">{title}</h1>
+        <p className="landing-subtitle">{subtitle}</p>
+      </div>
+      <div className="landing-image">
         <Img fluid={landingImage.childImageSharp.fluid} />
       </div>
     </div>
