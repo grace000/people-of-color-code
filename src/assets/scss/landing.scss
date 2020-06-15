@@ -1,6 +1,7 @@
 .landing-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 4rem;
 }
 
 .landing-text {
@@ -8,7 +9,7 @@
 }
 
 .landing-subtitle {
-  width: 70%;
+  width: 75%;
 }
 
 .landing-image {

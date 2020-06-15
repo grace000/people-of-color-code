@@ -3,7 +3,7 @@ import SupportData from "../data/supporters.json"
 
 const SupportingCompanies = () => {
   const { supporterMessage } = SupportData
-  return <h1>{supporterMessage}</h1>
+  return <h3 className="supporting-companies-header">{supporterMessage}</h3>
 }
 
 export default SupportingCompanies

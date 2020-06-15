@@ -3,7 +3,7 @@ import React from "react"
 const SimpleCard = ({ content: { subtitle, text } }) => (
   <div>
     <div>
-      <h2>{subtitle}</h2>
+      <h3>{subtitle}</h3>
       <p>{text}</p>
     </div>
   </div>
