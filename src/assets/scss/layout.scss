@@ -3,15 +3,15 @@
 @import "./colors.scss";
 @import "./landing.scss";
 @import "./supporting-companies.scss";
-@import url("https://fonts.googleapis.com/css?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:wght@400;700&family=Open+Sans&family=Mukta:wght@600&display=swap");
 
 body {
-  margin: 0 5%;
+  margin: 0 8%;
   padding: 1.45rem 1.0875rem;
   font-family: "Open Sans", sans-serif;
   word-wrap: break-word;
   color: var(--grey-500);
-  font-size: 1.5em;
+  font-size: 2em;
 }
 article,
 aside,
