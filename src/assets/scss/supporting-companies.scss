@@ -1,3 +1,30 @@
+.supporting-companies-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 4em 0;
+
+  @media only screen and (max-width: 870px) {
+    grid-template-columns: none;
+    grid-template-rows: 1fr;
+    margin-top: 1em;
+    margin: 2em 0;
+  }
+}
+
 .supporting-companies-header {
   color: var(--grey-100);
+  font-family: "Mukta";
+  align-self: center;
+  justify-self: end;
+  padding-top: 1.5em;
+
+  @media only screen and (max-width: 870px) {
+    justify-self: center;
+  }
+}
+
+.supporting-company-logo {
+  @media only screen and (max-width: 870px) {
+    justify-self: center;
+  }
 }

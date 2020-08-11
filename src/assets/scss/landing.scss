@@ -1,18 +1,31 @@
 .landing-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 4rem;
+  margin-top: 7em;
+
+  @media only screen and (max-width: 870px) {
+    grid-template-columns: none;
+    grid-template-rows: 1fr;
+    margin-top: 3em;
+  }
 }
 
 .landing-text {
   align-self: center;
 }
 
-.landing-subtitle {
-  width: 75%;
+.landing-title {
+  @media only screen and (max-width: 600px) {
+    font-size: 1.3em;
+  }
 }
 
-.landing-image {
-  max-width: "300px";
-  margin-bottom: "1.45rem";
+.landing-subtitle {
+  @media only screen and (min-width: 870px) {
+    width: 75%;
+  }
+}
+
+.landing-image .gatsby-image-wrapper {
+  height: 400px;
 }
