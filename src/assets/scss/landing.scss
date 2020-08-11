@@ -1,10 +1,12 @@
 .landing-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 7em;
 
   @media only screen and (max-width: 870px) {
     grid-template-columns: none;
     grid-template-rows: 1fr;
+    margin-top: 3em;
   }
 }
 
@@ -14,7 +16,7 @@
 
 .landing-title {
   @media only screen and (max-width: 600px) {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 }
 

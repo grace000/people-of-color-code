@@ -12,6 +12,11 @@ body {
   word-wrap: break-word;
   color: var(--grey-500);
   font-size: 2em;
+
+  @media only screen and (max-width: 600px) {
+    margin: 0 3%;
+    font-size: 1.5em;
+  }
 }
 article,
 aside,
