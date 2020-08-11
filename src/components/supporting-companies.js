@@ -28,7 +28,7 @@ const SupportingCompanies = () => {
   console.log(companyLogo, "logog here")
   return (
     <div className="supporting-companies-wrapper">
-      <h2 className="supporting-companies-header">{supporterMessage}</h2>
+      <h3 className="supporting-companies-header">{supporterMessage}</h3>
       <div className="supporting-company-logo">
         <Img fixed={companyLogo.childImageSharp.fixed} />
       </div>

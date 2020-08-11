@@ -11,9 +11,9 @@ const Landing = () => {
       allFile {
         nodes {
           childImageSharp {
-            fluid(maxWidth: 250) {
+            fixed(width: 700, height: 500) {
               originalName
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFixed
             }
           }
         }
@@ -23,7 +23,7 @@ const Landing = () => {
 
   const images = data.allFile.nodes
   const landingImage = images.find(
-    i => i.childImageSharp.fluid.originalName === image
+    i => i.childImageSharp.fixed.originalName === image
   )
 
   return (
@@ -33,7 +33,7 @@ const Landing = () => {
         <p className="landing-subtitle">{subtitle}</p>
       </div>
       <div className="landing-image">
-        <Img fluid={landingImage.childImageSharp.fluid} />
+        <Img fixed={landingImage.childImageSharp.fixed} />
       </div>
     </div>
   )

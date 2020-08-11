@@ -1,3 +1,25 @@
-// .about-us-wrapper {
+.about-us-card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 3em;
+}
 
-// }
+.about-us-title {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.about-us-cards {
+  margin-left: 2em;
+  justify-content: end;
+}
+
+.about-us-title::after {
+  content: "";
+  position: absolute;
+  width: 9%;
+  height: 1px;
+  bottom: -50%;
+  left: 0;
+  border-bottom: 7px solid var(--yellow-300);
+}
