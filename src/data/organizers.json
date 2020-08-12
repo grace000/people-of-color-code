@@ -2,19 +2,24 @@
   "title": "Organizers",
   "tiles": [
     {
-      "name": "App builder",
-      "url": "/",
-      "image": "Free trial"
+      "name": "Byron Woodfork",
+      "url": "https://www.linkedin.com/in/byronwoodfork/",
+      "image": "woodfork.jpeg"
     },
     {
-      "name": "Cloud integration",
-      "url": "/",
-      "image": "Get started"
+      "name": "Nicole Carpenter",
+      "url": "https://www.linkedin.com/in/nicolecarpenterusa/",
+      "image": "carpenter.png"
     },
     {
-      "name": "Add-ons & plugins",
-      "url": "/",
-      "image": "Get started"
+      "name": "Oscar Delgadillo",
+      "url": "https://www.linkedin.com/in/oscardel/",
+      "image": "delgadillo.jpeg"
+    },
+    {
+      "name": "Tiffani Elmore",
+      "url": "https://www.linkedin.com/in/tiffani-elmore/",
+      "image": "telmore.jpeg"
     }
   ]
 }
