@@ -1,10 +1,22 @@
 .organizers-wrapper {
   background-color: var(--yellow-300);
   padding: 1em 3em;
-
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
   @media only screen and (max-width: 768px) {
     padding-top: 1em;
   }
+}
+
+.organizers-background {
+  top: 70%;
+  position: absolute;
+  transform: rotate(170deg);
+  background-color: #ffffff;
+  height: 70vh;
+  width: 150%;
+  left: -20%;
 }
 
 .organizers-title {

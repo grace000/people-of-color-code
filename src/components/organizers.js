@@ -13,6 +13,7 @@ const Organizers = () => {
           <CardWithImage key={index} content={tile} />
         ))}
       </div>
+      <div className="organizers-background"></div>
     </div>
   )
 }
