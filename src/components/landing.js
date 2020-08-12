@@ -11,7 +11,7 @@ const Landing = () => {
       allFile {
         nodes {
           childImageSharp {
-            fluid(maxWidth: 250) {
+            fluid(maxWidth: 700, maxHeight: 500) {
               originalName
               ...GatsbyImageSharpFluid
             }

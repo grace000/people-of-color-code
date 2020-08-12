@@ -14,18 +14,8 @@
   align-self: center;
 }
 
-.landing-title {
-  @media only screen and (max-width: 600px) {
-    font-size: 1.3em;
-  }
-}
-
 .landing-subtitle {
   @media only screen and (min-width: 870px) {
     width: 75%;
   }
-}
-
-.landing-image .gatsby-image-wrapper {
-  height: 400px;
 }
