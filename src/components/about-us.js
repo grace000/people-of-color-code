@@ -12,9 +12,9 @@ const AboutUs = () => {
       allFile {
         nodes {
           childImageSharp {
-            fixed(width: 500, height: 320) {
+            fluid(maxWidth: 500, maxHeight: 320) {
               originalName
-              ...GatsbyImageSharpFixed
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -24,7 +24,7 @@ const AboutUs = () => {
 
   const images = data.allFile.nodes
   const aboutImage = images.find(
-    i => i.childImageSharp.fixed.originalName === image
+    i => i.childImageSharp.fluid.originalName === image
   )
 
   return (
@@ -32,7 +32,7 @@ const AboutUs = () => {
       <h2 className="about-us-title">{title}</h2>
       <div className="about-us-card-wrapper">
         <div className="about-us-image">
-          <Img fixed={aboutImage.childImageSharp.fixed} />
+          <Img fluid={aboutImage.childImageSharp.fluid} />
         </div>
         <div className="about-us-cards">
           {features.map((feature, index) => (
