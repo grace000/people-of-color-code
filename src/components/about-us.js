@@ -12,7 +12,7 @@ const AboutUs = () => {
       allFile {
         nodes {
           childImageSharp {
-            fixed(width: 500, height: 300) {
+            fixed(width: 500, height: 320) {
               originalName
               ...GatsbyImageSharpFixed
             }

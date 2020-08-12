@@ -2,16 +2,15 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-bottom: 3em;
+
+  @media only screen and (max-width: 1070px) {
+    grid-template-columns: none;
+  }
 }
 
 .about-us-title {
   position: relative;
   margin-bottom: 1em;
-}
-
-.about-us-cards {
-  margin-left: 2em;
-  justify-content: end;
 }
 
 .about-us-title::after {
@@ -22,4 +21,23 @@
   bottom: -50%;
   left: 0;
   border-bottom: 7px solid var(--yellow-300);
+}
+
+.about-us-image Img {
+  @media only screen and (max-width: 870px) {
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+  }
+}
+
+.about-us-cards {
+  margin-left: 2em;
+  justify-content: end;
+
+  @media only screen and (max-width: 1200px) {
+    justify-self: center;
+    padding-top: 0.5em;
+    margin-left: 0;
+  }
 }
