@@ -14,6 +14,12 @@
   align-self: center;
 }
 
+.landing-title {
+  @media only screen and (max-width: 768px) {
+    font-size: 1.7em;
+  }
+}
+
 .landing-subtitle {
   @media only screen and (min-width: 870px) {
     width: 75%;
