@@ -9,7 +9,7 @@
 .about-us-card-wrapper {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin: 3em;
+  margin: 2em;
 
   @media only screen and (max-width: 1070px) {
     grid-template-columns: none;
