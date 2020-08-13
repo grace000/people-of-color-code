@@ -1,7 +1,7 @@
 .landing-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 6em 2em;
+  margin: 6em 3em;
 
   @media only screen and (max-width: 1024px) {
     grid-template-columns: none;
@@ -22,6 +22,6 @@
 
 .landing-subtitle {
   @media only screen and (min-width: 870px) {
-    width: 75%;
+    width: 88%;
   }
 }

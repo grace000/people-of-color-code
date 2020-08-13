@@ -1,5 +1,9 @@
 .about-us-wrapper {
-  margin: 3em 4em;
+  margin: 3em 2em;
+
+  @media only screen and (max-width: 1024px) {
+    margin: 3em 1em 0 1em;
+  }
 }
 
 .about-us-card-wrapper {
@@ -9,6 +13,7 @@
 
   @media only screen and (max-width: 1070px) {
     grid-template-columns: none;
+    margin: 0;
   }
 }
 
