@@ -6,11 +6,14 @@ const Organizers = () => {
   const { title, tiles } = OrganizerData
 
   return (
-    <div>
-      <h1>{title}</h1>
-      {tiles.map((tile, index) => (
-        <CardWithImage key={index} content={tile} />
-      ))}
+    <div className="organizers-wrapper">
+      <h2 className="organizers-title">{title}</h2>
+      <div className="organizers-cards">
+        {tiles.map((tile, index) => (
+          <CardWithImage key={index} content={tile} />
+        ))}
+      </div>
+      <div className="organizers-background"></div>
     </div>
   )
 }

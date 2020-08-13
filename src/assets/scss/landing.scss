@@ -1,21 +1,49 @@
 .landing-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 7em;
+  margin: 5em 3em;
 
-  @media only screen and (max-width: 870px) {
+  @media only screen and (max-width: 1024px) {
     grid-template-columns: none;
     grid-template-rows: 1fr;
-    margin-top: 3em;
+    margin: 3em 1em 0 1em;
   }
 }
 
-.landing-text {
-  align-self: center;
+.landing-title {
+  font-size: 2.3em;
+
+  @media only screen and (max-width: 736px) {
+    font-size: 1.7em;
+  }
+  @media only screen and (min-width: 737px) and (max-width: 1024px) {
+    font-size: 2em;
+  }
+
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    font-size: 1.2em;
+  }
+
+  @media only screen and (min-width: 1201px) and (max-width: 1464px) {
+    font-size: 1.5em;
+  }
+  @media only screen and (min-width: 1465px) and (max-width: 1734px) {
+    font-size: 1.9em;
+  }
 }
 
 .landing-subtitle {
-  @media only screen and (min-width: 870px) {
-    width: 75%;
+  font-size: 1.2em;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1em;
+  }
+
+  @media only screen and (min-width: 737px) and (max-width: 1024px) {
+    font-size: 1.3em;
+  }
+
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    font-size: 1em;
   }
 }
