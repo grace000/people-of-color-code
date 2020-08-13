@@ -1,7 +1,6 @@
 import React from "react"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
-import Organizers from "../organizers"
 
 const CardWithImage = ({ content: { image, name, url } }) => {
   const data = useStaticQuery(graphql`
@@ -20,12 +19,12 @@ const CardWithImage = ({ content: { image, name, url } }) => {
   `)
 
   const images = data.allFile.nodes
-  const organizerImage = images.find(
+  const cardImage = images.find(
     i => i.childImageSharp.fluid.originalName === image
   )
   return (
     <div className="card-with-image-wrapper">
-      <Img fluid={organizerImage.childImageSharp.fluid} />
+      <Img fluid={cardImage.childImageSharp.fluid} />
       <div className="card-with-image-content">
         <h3 className="card-with-image-header">{name}</h3>
         <a className="link-logo" href={url} target="_blank" />

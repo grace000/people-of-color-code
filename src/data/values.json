@@ -2,18 +2,18 @@
   "title": "Values",
   "values": [
     {
-      "title": "Apples",
-      "image": "/",
+      "subtitle": "Apples",
+      "image":"coworking-cut.png",
       "text": "Found somethingmove I bite it tails stuff and things scratch the box the door is opening! How exciting OH!"
     },
     {
-      "title": "Clouds",
-      "image": "/",
+      "subtitle": "Clouds",
+      "image":"chat-cut.png",
       "text": "Found somethingmove I bite it tails stuff and things scratch the box the door is opening! How exciting OH!"
     },
     {
-      "title": "Rainbow",
-      "image": "/",
+      "subtitle": "Rainbow",
+      "image":"finance-cut.png",
       "text": "Found somethingmove I bite it tails stuff and things scratch the box the door is opening! How exciting OH!"
     }
   ]

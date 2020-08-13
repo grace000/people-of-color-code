@@ -1,16 +1,22 @@
 import React from "react"
 import ValuesData from "../data/values.json"
-import CardWithImageText from "./cards/card-with-image-text"
+import ImageCardWithCenterText from "./cards/image-card-with-center-text"
 
 const Values = () => {
   const { title, values } = ValuesData
 
   return (
-    <div>
-      <h1>{title}</h1>
-      {values.map((value, index) => (
-        <CardWithImageText key={index} content={value} />
-      ))}
+    <div className="values-wrapper">
+      <h2 className="values-title">{title}</h2>
+      <div className="values-image-cards-wrapper">
+        {values.map((value, index) => (
+          <ImageCardWithCenterText
+            key={index}
+            content={value}
+            textLength={"short"}
+          />
+        ))}
+      </div>
     </div>
   )
 }
