@@ -25,7 +25,6 @@ const SupportingCompanies = () => {
   const companyLogo = images.find(
     i => i.childImageSharp.fixed.originalName === companies.logo
   )
-  console.log(companyLogo, "logog here")
   return (
     <div className="supporting-companies-wrapper">
       <h3 className="supporting-companies-header">{supporterMessage}</h3>
