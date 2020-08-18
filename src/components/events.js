@@ -1,7 +1,7 @@
 import React from "react"
 import EventsData from "../data/events.json"
-import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
+import Carousel from "./carousel"
 
 const Events = () => {
   const { title, images } = EventsData
@@ -11,7 +11,7 @@ const Events = () => {
       allFile {
         nodes {
           childImageSharp {
-            fixed(width: 100, height: 74) {
+            fixed(width: 500, height: 300) {
               originalName
               ...GatsbyImageSharpFixed
             }
@@ -26,15 +26,10 @@ const Events = () => {
   const eventImages = images.map(image =>
     allSiteImages.find(i => i.childImageSharp.fixed.originalName === image)
   )
-
   return (
-    <div>
-      <h2>{title}</h2>
-      <div>
-        {eventImages.map(eventImage => (
-          <Img fixed={eventImage.childImageSharp.fixed} />
-        ))}
-      </div>
+    <div className="events-wrapper">
+      <h2 className="events-title">{title}</h2>
+      <Carousel images={eventImages} />
     </div>
   )
 }

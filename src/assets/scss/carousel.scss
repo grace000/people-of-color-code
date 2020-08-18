@@ -1,0 +1,50 @@
+.styledScroller {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.outer-wrapper {
+  overflow-x: visible;
+}
+.inner-wrapper {
+  display: flex;
+  transition: transform 300ms;
+  padding-left: calc(50vw - 39rem);
+  scroll-padding-left: calc(50vw - 34rem);
+}
+.outer-wrapper .arrows {
+  display: flex;
+  justify-content: flex-end;
+  .mdi {
+    font-size: 4rem;
+    cursor: pointer;
+    &:hover {
+      color: red;
+    }
+  }
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start;
+  width: 100%;
+  max-width: 33rem;
+  flex: 0 0 auto;
+}
+
+.next-arrow,
+.previous-arrow {
+  margin: 5%;
+  border-right: 10px solid;
+  border-bottom: 10px solid;
+  height: 30px;
+  width: 30px;
+}
+
+.next-arrow {
+  transform: rotate(-45deg);
+}
+
+.previous-arrow {
+  transform: rotate(130deg);
+}
