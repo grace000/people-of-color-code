@@ -1,0 +1,52 @@
+.styled-scroller {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 3em;
+}
+.outer-scroller-wrapper {
+  overflow-x: visible;
+}
+.inner-scroller-wrapper {
+  display: flex;
+  transition: transform 300ms;
+  padding-left: calc(35vw - 39rem);
+  scroll-padding-left: calc(50vw - 34rem);
+}
+.outer-scroller-wrapper .arrows {
+  display: flex;
+  justify-content: flex-end;
+  .mdi {
+    font-size: 4rem;
+    cursor: pointer;
+    &:hover {
+      color: var(--blue-500);
+    }
+  }
+}
+.slide-image {
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start;
+  width: 100%;
+  max-width: 33rem;
+  flex: 0 0 auto;
+}
+
+.next-arrow,
+.previous-arrow {
+  margin: 4%;
+  border-right: 10px solid;
+  border-bottom: 10px solid;
+  height: 30px;
+  width: 30px;
+  color: var(--green-300);
+}
+
+.next-arrow {
+  transform: rotate(-45deg);
+}
+
+.previous-arrow {
+  transform: rotate(130deg);
+}

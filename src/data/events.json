@@ -1,3 +1,10 @@
 {
-  "title": "Past Events"
+  "title": "Past Events",
+  "images":[
+    "code-chill-one.jpeg", 
+    "open-source-night.jpeg", 
+    "workshop-one.jpg", 
+    "workshop-two.jpg",
+    "workshop-three.jpg"
+  ]
 }
