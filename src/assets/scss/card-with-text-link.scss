@@ -1,0 +1,12 @@
+.card-with-text-wrapper {
+  text-align: center;
+  margin: 1em 1.4em;
+
+  @media only screen and (min-width: 769px) and (max-width: 1090px) {
+    margin: 1em 4em;
+  }
+
+  @media only screen and (min-width: 1091px) and (max-width: 1490px) {
+    margin: 2em 1em;
+  }
+}

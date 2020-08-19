@@ -34,11 +34,11 @@ const Engage = () => {
         <div className="engage-image">
           <Img fluid={engageImage.childImageSharp.fluid} />
         </div>
-        <div className="engage-cards">
-          {tiles.map((tile, index) => (
-            <CardWithTextLink key={index} content={tile} />
-          ))}
-        </div>
+        {/* <div className="engage-cards"> */}
+        {tiles.map((tile, index) => (
+          <CardWithTextLink key={index} content={tile} />
+        ))}
+        {/* </div> */}
       </div>
     </div>
   )
