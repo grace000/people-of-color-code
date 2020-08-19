@@ -1,0 +1,24 @@
+.events-wrapper {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  margin-left: 2em;
+
+  @media only screen and (max-width: 1024px) {
+    margin-left: 1em;
+  }
+}
+
+.events-title {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.events-title::after {
+  content: "";
+  position: absolute;
+  width: 7%;
+  height: 1px;
+  bottom: -50%;
+  left: 0;
+  border-bottom: 7px solid var(--yellow-300);
+}

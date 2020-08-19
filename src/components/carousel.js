@@ -34,7 +34,7 @@ const Carousel = props => {
 
   return (
     <div {...handlers}>
-      <div className="styledScroller" {...props}>
+      <div className="styled-scroller" {...props}>
         <div className="outer-wrapper container">
           <div
             className="inner-wrapper"
@@ -44,17 +44,20 @@ const Carousel = props => {
             ref={node => (container = node)}
           >
             {props.images.map(child => (
-              <div className="item">
+              <div className="slide-image">
                 <Img fixed={child.childImageSharp.fixed} />
               </div>
             ))}
           </div>
           <div className="arrows">
             <div
-              className="previous-arrow"
+              className="mdi previous-arrow"
               onClick={e => handleSwipe(e, -1)}
             ></div>
-            <div className="next-arrow" onClick={e => handleSwipe(e, 1)}></div>
+            <div
+              className="mdi next-arrow"
+              onClick={e => handleSwipe(e, 1)}
+            ></div>
           </div>
         </div>
       </div>

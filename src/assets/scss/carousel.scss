@@ -1,7 +1,8 @@
-.styledScroller {
+.styled-scroller {
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin-top: 3em;
 }
 .outer-wrapper {
   overflow-x: visible;
@@ -9,21 +10,22 @@
 .inner-wrapper {
   display: flex;
   transition: transform 300ms;
-  padding-left: calc(50vw - 39rem);
+  padding-left: calc(35vw - 39rem);
   scroll-padding-left: calc(50vw - 34rem);
 }
 .outer-wrapper .arrows {
   display: flex;
   justify-content: flex-end;
+  color: var(--green-300);
   .mdi {
     font-size: 4rem;
     cursor: pointer;
     &:hover {
-      color: red;
+      color: var(--blue-500);
     }
   }
 }
-.item {
+.slide-image {
   display: flex;
   flex-direction: column;
   scroll-snap-align: start;
@@ -34,7 +36,7 @@
 
 .next-arrow,
 .previous-arrow {
-  margin: 5%;
+  margin: 4%;
   border-right: 10px solid;
   border-bottom: 10px solid;
   height: 30px;
