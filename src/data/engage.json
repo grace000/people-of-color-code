@@ -3,19 +3,19 @@
   "tiles": [
     {
       "title": "Slack",
-      "url": "/",
-      "buttonText": "Join our slack",
+      "url": "https://poc-slack-invite-page.herokuapp.com/",
+      "buttonText": "Join Our Slack",
       "text": "The People of Color Code Slack is an online place for you to connect and share resources with other people."
     },
     {
       "title": "Meetup",
-      "url": "/",
+      "url": "https://www.meetup.com/People-of-Color-Code/",
       "buttonText": "Chicago Meetup",
-      "text": "Join us in person for Code and Chill events, workshops, and other technical presentations"
+      "text": "Join us in person for Code and Chill events, workshops, and other technical presentations."
     },
     {
       "title": "Speaker Opportunities",
-      "url": "/",
+      "url": "https://forms.gle/1ZZ2NCtSXLWQV7do9",
       "buttonText": "Apply to Speak",
       "text": "Interested in providing a workshop or giving a talk? Apply to speak at one of our events."
     }
