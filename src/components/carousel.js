@@ -35,9 +35,9 @@ const Carousel = props => {
   return (
     <div {...handlers}>
       <div className="styled-scroller" {...props}>
-        <div className="outer-wrapper container">
+        <div className="outer-scroller-wrapper container">
           <div
-            className="inner-wrapper"
+            className="inner-scroller-wrapper"
             style={{
               transform: `translate3d(-${left}px, 0, 0)`,
             }}

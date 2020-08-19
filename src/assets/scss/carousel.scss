@@ -4,19 +4,18 @@
   overflow: hidden;
   margin-top: 3em;
 }
-.outer-wrapper {
+.outer-scroller-wrapper {
   overflow-x: visible;
 }
-.inner-wrapper {
+.inner-scroller-wrapper {
   display: flex;
   transition: transform 300ms;
   padding-left: calc(35vw - 39rem);
   scroll-padding-left: calc(50vw - 34rem);
 }
-.outer-wrapper .arrows {
+.outer-scroller-wrapper .arrows {
   display: flex;
   justify-content: flex-end;
-  color: var(--green-300);
   .mdi {
     font-size: 4rem;
     cursor: pointer;
@@ -41,6 +40,7 @@
   border-bottom: 10px solid;
   height: 30px;
   width: 30px;
+  color: var(--green-300);
 }
 
 .next-arrow {
