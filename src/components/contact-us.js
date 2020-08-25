@@ -35,8 +35,8 @@ const ContactUs = () => {
     <div className="contact-us-wrapper">
       <div className="contact-us-background"></div>
       <h2 className="contact-us-title">{title}</h2>
-
       <form
+        className="contact-form"
         name="contact"
         method="post"
         action="/"
@@ -52,37 +52,33 @@ const ContactUs = () => {
             <input name="bot-field" onChange={handleChange} />
           </label>
         </p>
-        <p>
-          <input
-            className="contact-input-name"
-            type="text"
-            name="name"
-            onChange={handleChange}
-            placeholder={enterName}
-          />
-        </p>
-        <p>
-          <input
-            className="contact-input-email"
-            type="email"
-            name="email"
-            onChange={handleChange}
-            placeholder={enterEmail}
-          />
-        </p>
-        <p>
-          <textarea
-            className="contact-textarea"
-            name="message"
-            onChange={handleChange}
-            placeholder={enterMessage}
-          />
-        </p>
-        <p>
-          <button className="contact-button" type="submit">
-            {sendButton}
-          </button>
-        </p>
+
+        <input
+          className="contact-input-name"
+          type="text"
+          name="name"
+          onChange={handleChange}
+          placeholder={enterName}
+        />
+
+        <input
+          className="contact-input-email"
+          type="email"
+          name="email"
+          onChange={handleChange}
+          placeholder={enterEmail}
+        />
+
+        <textarea
+          className="contact-textarea"
+          name="message"
+          onChange={handleChange}
+          placeholder={enterMessage}
+        />
+
+        <button className="contact-button" type="submit">
+          {sendButton}
+        </button>
       </form>
     </div>
   )
