@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import NavbarData from "../data/navbar.json"
 
 import Header from "./header"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
   const { navbar } = NavbarData
@@ -19,12 +20,8 @@ const Layout = ({ children }) => {
       <Header navigation={navbar} />
       <div>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
+      <Footer />
     </>
   )
 }
