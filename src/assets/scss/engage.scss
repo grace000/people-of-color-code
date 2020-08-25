@@ -1,5 +1,5 @@
 .engage-wrapper {
-  margin: 5em 2em;
+  margin: 3em 2em;
 
   @media only screen and (max-width: 1024px) {
     margin: 1em;
@@ -41,6 +41,16 @@
     }
   }
 }
+
+// .engage-background {
+//     top: 91%;
+//     position: absolute;
+//     transform: rotate(170deg);
+//     background-color: #ffffff;
+//     height: 70vh;
+//     width: 150%;
+//     left: -20%;
+// }
 
 .engage-image {
   margin-bottom: 1em;
