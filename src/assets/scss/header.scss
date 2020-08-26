@@ -61,6 +61,9 @@
     grid-template-areas: "logo burger" "nav nav";
     background: var(--grey-100);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
   .logo {
     padding: 1em 1em;
