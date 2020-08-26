@@ -9,15 +9,16 @@
 .engage-title {
   position: relative;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .engage-title::after {
   content: "";
   position: absolute;
-  width: 7%;
+  width: 9%;
   height: 1px;
   bottom: -50%;
-  left: 0;
+  left: 45.5%;
   border-bottom: 7px solid var(--yellow-300);
 }
 
