@@ -6,7 +6,7 @@ const Organizers = () => {
   const { title, tiles } = OrganizerData
 
   return (
-    <div className="organizers-wrapper">
+    <div id="Organizers" className="organizers-wrapper">
       <h2 className="organizers-title">{title}</h2>
       <div className="organizers-cards">
         {tiles.map((tile, index) => (

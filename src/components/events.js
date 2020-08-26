@@ -27,7 +27,7 @@ const Events = () => {
     allSiteImages.find(i => i.childImageSharp.fixed.originalName === image)
   )
   return (
-    <div className="events-wrapper">
+    <div id="Events" className="events-wrapper">
       <h2 className="events-title">{title}</h2>
       <Carousel images={eventImages} />
     </div>
