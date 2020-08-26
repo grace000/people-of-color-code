@@ -6,7 +6,7 @@ const Values = () => {
   const { title, values } = ValuesData
 
   return (
-    <div className="values-wrapper">
+    <div id="Values" className="values-wrapper">
       <h2 className="values-title">{title}</h2>
       <div className="values-image-cards-wrapper">
         {values.map((value, index) => (

@@ -32,7 +32,7 @@ const ContactUs = () => {
       .catch(error => alert(error))
   }
   return (
-    <div className="contact-us-wrapper">
+    <div id="Contact" className="contact-us-wrapper">
       <div className="contact-us-background"></div>
       <h2 className="contact-us-title">{title}</h2>
       <form

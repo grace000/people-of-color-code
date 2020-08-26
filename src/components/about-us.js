@@ -28,7 +28,7 @@ const AboutUs = () => {
   )
 
   return (
-    <div className="about-us-wrapper">
+    <div id="About" className="about-us-wrapper">
       <h2 className="about-us-title">{title}</h2>
       <div className="about-us-card-wrapper">
         <div className="about-us-image">
