@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react"
 const Header = ({ navigation }) => {
   const [isNavVisible, setNavVisibility] = useState(false)
   const [isSmallScreen, setIsSmallScreen] = useState(false)
+  const [isBurgerOpen, setBurger] = useState(false)
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 1024px)")
@@ -25,6 +26,12 @@ const Header = ({ navigation }) => {
 
   const toggleNav = () => {
     setNavVisibility(!isNavVisible)
+    setBurger(!isBurgerOpen)
+  }
+
+  let className = ""
+  if (isBurgerOpen) {
+    className += "change "
   }
 
   return (
@@ -42,8 +49,10 @@ const Header = ({ navigation }) => {
           ))}
         </nav>
       )}
-      <button onClick={toggleNav} className="Burger">
-        🍔
+      <button onClick={toggleNav} className="burger">
+        <div className={`${className}bar1`}></div>
+        <div className={`${className}bar2`}></div>
+        <div className={`${className}bar3`}></div>
       </button>
     </header>
   )
