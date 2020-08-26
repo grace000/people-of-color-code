@@ -1,7 +1,7 @@
 .landing-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 6em 3em;
+  margin: 6em 3em 4em 6em;
 
   @media only screen and (max-width: 1024px) {
     grid-template-columns: none;
@@ -11,13 +11,17 @@
 }
 
 .landing-title {
-  font-size: 2.3em;
+  font-size: 2.2em;
 
   @media only screen and (max-width: 736px) {
     font-size: 1.7em;
   }
   @media only screen and (min-width: 737px) and (max-width: 1024px) {
     font-size: 2em;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    text-align: center;
   }
 
   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -37,6 +41,10 @@
 
   @media only screen and (max-width: 768px) {
     font-size: 1em;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    text-align: center;
   }
 
   @media only screen and (min-width: 737px) and (max-width: 1024px) {
